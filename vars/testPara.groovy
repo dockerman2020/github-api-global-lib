@@ -1,5 +1,5 @@
 class testPara {
-    static void context(String mode, String environment, String database, String tableSchema) {
+    static void shared(String mode, String environment, String database, String tableSchema) {
         // Your logic here
         println "Mode: $mode"
         println "Environment: $environment"
