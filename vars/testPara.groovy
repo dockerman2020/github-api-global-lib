@@ -1,5 +1,4 @@
-class testPara {
-    static void shared(String mode, String environment, String database, String tableSchema) {
+  def call(String mode, String environment, String database, String tableSchema) {
         // Your logic here
         println "Hello from Para shared"
         println "Mode: $mode"
@@ -8,4 +7,3 @@ class testPara {
         println "Table Schema: $tableSchema"
         // Add your business logic or call other methods as needed
     }
-}
