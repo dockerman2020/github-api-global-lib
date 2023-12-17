@@ -1,7 +1,7 @@
 class testPara {
     static void shared(String mode, String environment, String database, String tableSchema) {
         // Your logic here
-        sh "Hello from Para shared"
+        println "Hello from Para shared"
         println "Mode: $mode"
         println "Environment: $environment"
         println "Database: $database"
