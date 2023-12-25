@@ -7,4 +7,4 @@
         println "Table Schema: $tableSchema"
         // Add your business logic or call other methods as needed
     }
-  sh "groovy --version"
+
